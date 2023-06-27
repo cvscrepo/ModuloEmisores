@@ -1,0 +1,80 @@
+<header>
+  <h3>Módulo emisor de receptores</h3>
+</header>
+<body>
+  <div>
+    <form action="">
+      <div class="mb-3">
+        <label for="Tipo_documento" class="form-label">Tipo de documento:</label>
+        <select name="tipo_documento" id="" class="form-select">
+          <option value="CC">Cedula</option>
+          <option value="TE">Tarjeta extranjería</option>
+          <option value="Pasaporte">Pasaporte</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="numero_documento" class="form-label">Documento</label>
+        <input type="text" id="numero_documento" name="numero_documento" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-primary">Buscar</button>
+    </form>
+  </div>
+  <div class="mt-5">
+    <div class="mb-4">
+      <h3 class="">Información del cliente</h3>
+    </div>
+    <div class="-text mb-4 mt-1 p-3">
+      <article class="mb-3">
+        <h5 >Nombre del cliente</h5>
+      </article>
+      <form action="">
+        <div>
+          <label for="edad" class="form-label">Edad: </label>
+          <input type="text" class="form-control">
+        </div>
+        <div>
+          <label for="edad" class="form-label">Teléfono: </label>
+          <input type="text" class="form-control">
+        </div>
+        <div>
+          <label for="edad" class="form-label">Email: </label>
+          <input type="email" class="form-control">
+        </div>
+      </form>
+    </div>
+    <form class="form-inline">
+      <div class="input-group">
+        <label for="departamento" class="input-group-text">Departamento:</label>
+        <select class="form-control" name="departamento" id="">
+          <option value="">select</option>
+        </select>
+        <label for="municipio" class="input-group-text ">Municipio:</label>
+        <select class="form-control" name="municipio" id="">
+          <option value="">select</option>
+        </select>
+      </div>
+
+      <div class="input-group mt-4">
+        <label for="ciudad" class="input-group-text">Ciudad:</label>
+        <select class="form-control" name="ciudad" id="">
+          <option value="">select</option>
+        </select>
+        <label for="responsable_iva" class="input-group-text">Responsable IVA:</label>
+        <select class="form-control" name="responsable_iva" id="">
+          <option value="">select</option>
+        </select>
+      </div>
+
+
+      <div class="form-group mt-4 mb-3">
+        <label for="codigo_cliente">Código cliente:</label>
+        <select class="form-control" name="codigo_cliente" id="">
+          <option value="">select</option>
+        </select>
+      </div>
+      <div class="d-flex justify-content-center mb-2">
+        <button class="btn btn-primary">Actualizar</button>
+      </div>
+    </form>
+  </div>
+</body>

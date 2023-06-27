@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
+
+//Todo en angular son clases!
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bases';
-}
+  public title: string = 'Mi primera app de Angular';
+};
